@@ -33,7 +33,7 @@ $(function () {
 });
 
 
-function startLunbo() {
+function startLunbo() {  //准备好
     $(".item").eq(0).show().siblings().hide();//第一张图显示，其余的图片隐藏
     setInterval(function () {
         i++;
